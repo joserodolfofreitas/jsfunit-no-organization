@@ -32,6 +32,7 @@ import org.jboss.shrinkwrap.api.spec.JavaArchive;
  * JSFUnitArchiveAppender
  * 
  * @author <a href="mailto:aslak@conduct.no">Aslak Knutsen</a>
+ * @author <a href="http://community.jboss.org/people/spinner)">Jose Rodolfo freitas</a>
  * @author Stan Silvert
  * @version $Revision: $
  */
@@ -68,7 +69,7 @@ public class JSFUnitArchiveAppender implements AuxiliaryArchiveAppender {
                         com.steadystate.css.sac.TestCSSParseException.class.getPackage(),
                         com.steadystate.css.userdata.UserDataConstants.class.getPackage(),
 
-                        /*org.apache.commons.logging.LogFactory.class.getPackage(),
+                        org.apache.commons.logging.LogFactory.class.getPackage(),
                         org.apache.xerces.xni.XNIException.class.getPackage(),
                         org.apache.commons.collections.Transformer.class.getPackage(),
                         org.apache.xerces.dom.AttrImpl.class.getPackage(), org.apache.xerces.impl.Constants.class.getPackage(),
@@ -83,7 +84,7 @@ public class JSFUnitArchiveAppender implements AuxiliaryArchiveAppender {
                         org.apache.xml.res.XMLErrorResources.class.getPackage(),
                         org.apache.xml.utils.AttList.class.getPackage(),
                         org.apache.xpath.XPath.class.getPackage(),
-                        org.apache.xalan.Version.class.getPackage(),*/
+                        org.apache.xalan.Version.class.getPackage(),
 
 
                         org.cyberneko.html.HTMLComponent.class.getPackage(), org.cyberneko.html.HTMLEntities.class.getPackage())
